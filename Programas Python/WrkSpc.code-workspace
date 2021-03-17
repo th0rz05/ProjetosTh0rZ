@@ -1,16 +1,7 @@
 {
     "folders": [
         {
-            "name": "Programas Python",
-            "path": "."
-        },
-        {
-            "name": "Programas C_C++",
-            "path": "../Programas C_C++"
-        },
-        {
-            "name": "Projetos",
-            "path": "../GitHub/Projetos"
+            "path": ".."
         }
     ],
     "settings": {
