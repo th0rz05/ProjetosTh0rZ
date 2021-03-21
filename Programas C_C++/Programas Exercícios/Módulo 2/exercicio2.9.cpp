@@ -15,6 +15,8 @@ int main(){
     cout << "Input number: ";
     cin >> number;
 
+    length = 0;
+
     num_temp = number;
 
     //calculate length
