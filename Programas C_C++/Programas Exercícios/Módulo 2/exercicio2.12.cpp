@@ -1,3 +1,5 @@
+/* Series giving the value of the mathematical constant pi,e and e^-x */
+
 #include <iostream>
 
 using namespace std;
