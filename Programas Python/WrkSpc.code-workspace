@@ -13,7 +13,8 @@
             "queue": "cpp",
             "stack": "cpp",
             "algorithm": "cpp",
-            "ostream": "cpp"
+            "ostream": "cpp",
+            "iomanip": "cpp"
         },
         "editor.tokenColorCustomizations": {
             "comments": "",
