@@ -1,0 +1,30 @@
+iniciar git local
+criar ficheiro txt  "este workshop é o máximo"
+git add
+git status
+adicionar origem remota e commit
+status
+mostrar github vazio
+dar push
+mostrar github
+
+fazer alterações online->explicar que o repositorio online está mais avançado
+dar pull
+
+
+2ª parte
+
+
+fazer um fork de um repositorio já com branches e algum codigo
+git log --oneline
+git branch
+git switch branchSecundário
+mexer em alguma coisa commit
+ammend do commit->mostrar que não aparece o outro commit no git log
+mergir com o master
+fazer merge dos conflitos
+criar branches novo
+alterar qualquer coisa
+criar pull request
+
+git reflog para mostrar que os amends não desaparecem realmente
