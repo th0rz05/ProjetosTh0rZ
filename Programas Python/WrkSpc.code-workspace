@@ -14,7 +14,8 @@
             "stack": "cpp",
             "algorithm": "cpp",
             "ostream": "cpp",
-            "iomanip": "cpp"
+            "iomanip": "cpp",
+            "ios": "cpp"
         },
         "editor.tokenColorCustomizations": {
             "comments": "",
