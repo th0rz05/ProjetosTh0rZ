@@ -13,7 +13,7 @@ int main(){
         for (int j = 0;j<NE;j++){
             if (0<i && i< NE-1 && 0<j && j<NE-1 ){
                 bool max = true;
-                for(int x = -1;x < 1;x++){
+                for(int x = -1;x < 2;x++){
                     if (a[i][j] < a[i+x][j-1]){
                         max = false;
                         break;
