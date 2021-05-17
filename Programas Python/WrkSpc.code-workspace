@@ -16,7 +16,11 @@
             "ostream": "cpp",
             "iomanip": "cpp",
             "ios": "cpp",
-            "iosfwd": "cpp"
+            "iosfwd": "cpp",
+            "bitset": "cpp",
+            "locale": "cpp",
+            "string": "cpp",
+            "chrono": "cpp"
         },
         "editor.tokenColorCustomizations": {
             "comments": "",
