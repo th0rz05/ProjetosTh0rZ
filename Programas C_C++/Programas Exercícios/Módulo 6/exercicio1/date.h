@@ -18,6 +18,9 @@ class Date{
         unsigned int getDay() const;
         string getDate() const; // returns the date in format "yyyy/mm/dd"
         void show() const;
+        bool isValid();
+        bool isEqualTo(const Date &date);
+        bool isNotEqualTo(const Date &date);
     private:
         unsigned int year;
         unsigned int month;

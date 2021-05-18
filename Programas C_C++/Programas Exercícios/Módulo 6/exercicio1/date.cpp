@@ -61,3 +61,29 @@ string Date:: getDate() const{
 void Date:: show() const{
     cout << day << "/" << month << "/" << year << endl;
 }
+
+bool Date:: isValid(){
+    if (year<0 || month <= 0|| day <= 0 || month>12){
+        return false;
+    }
+    if (month==1||month==3||month==5||month==7||month==8||month==10||month==12){
+        if (day<=31){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+    if (day > 30){
+        return false;
+    }
+    return true;
+}
+
+bool Date:: isEqualTo(const Date &date){
+    return (date.year==year&&date.month==month&&date.day==day);
+}
+
+bool Date:: isNotEqualTo(const Date &date){
+    return (date.year!=year||date.month!=month||date.day!=day);
+}

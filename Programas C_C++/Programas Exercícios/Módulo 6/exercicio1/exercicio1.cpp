@@ -7,10 +7,17 @@ int main()
 {
     int ano,mes,dia;
     string data;
+    bool valido,igual,diferente;
 
-    Date a("2009/10/2");
+    Date a("2009/12/31");
+    Date b("2009/12/31");
     a.show();
-    a.setDate(2002,8,5);
+    valido = a.isValid();
+    cout << valido << endl;
+    igual = a.isEqualTo(b);
+    cout << igual << endl;
+    diferente=a.isNotEqualTo(b);
+    cout << diferente << endl;
     a.show();
     a.setYear(2021);
     a.show();
