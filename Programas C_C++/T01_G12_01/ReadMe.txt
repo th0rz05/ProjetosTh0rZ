@@ -6,14 +6,13 @@ PROGRAM DEVELOPMENT STATE:
 - Todos os objetivos foram cumpridos.
 EXTRAS:
 -Quando o jogo seja ao fim dá a possibilidade de jogar novamente
--Usamos o ficheiro menu.txt para guardar lá o menu tal como rules.txt
--Consideramos que ganha o jogo apenas ao atravessar o portão
 MAIN DIFFICULTIES:
-- Integrar todas as classes
+- Tratar dos CTRL-Z
+- Eliminar robots de um vetor sem passar um a frente
 - Organizar o código
 
 MAZE01 SOLUÇÃO
-QQQQ
+DWWA
 
 MAZE07 SOLUÇÃO
-DDDDDEDDDCDD
+SSSSDDDDDDCD
